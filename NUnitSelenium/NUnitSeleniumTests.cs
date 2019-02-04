@@ -42,8 +42,11 @@ namespace NUnitSelenium
             capabilities.SetCapability(CapabilityType.BrowserName, browser);
             capabilities.SetCapability(CapabilityType.Version, version);
             capabilities.SetCapability(CapabilityType.Platform, os);
+            capabilities.SetCapability("visual", true);
+            capabilities.SetCapability("network", true);
+            capabilities.SetCapability("console", true);
+            
 
-            //Requires a named tunnel.
             if (tunnel)
             {
                 capabilities.SetCapability("tunnel", tunnel);
