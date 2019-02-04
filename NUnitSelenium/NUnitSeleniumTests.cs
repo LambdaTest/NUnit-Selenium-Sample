@@ -8,14 +8,10 @@ using System.Collections.Generic;
 namespace NUnitSelenium
 {
     [TestFixture("chrome", "60", "Windows 10")]
-    [TestFixture("internet explorer", "11", "Windows 7")]
+    [TestFixture("safari", "10", "macos 10.12")]
     [TestFixture("firefox", "60", "Windows 7")]
-    [TestFixture("chrome", "71", "Windows 7")]
-    [TestFixture("internet explorer", "11", "Windows 10")]
-    [TestFixture("firefox", "58", "Windows 7")]
-    [TestFixture("chrome", "67", "Windows 7")]
-    [TestFixture("internet explorer", "10", "Windows 7")]
-    [TestFixture("firefox", "55", "Windows 7")]
+    [TestFixture("MicrosoftEdge", "17", "Windows 10")]
+    [TestFixture("safari", "11", "macos 10.13")]
     [Parallelizable(ParallelScope.Children)]
     public class NUnitSeleniumSample
     {
