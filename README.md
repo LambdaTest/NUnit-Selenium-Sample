@@ -13,7 +13,7 @@
 With TestMu AI (Formerly LambdaTest), you can run NUnit parallel tests using nmake as the build system on the TestMu AI (Formerly LambdaTest) Selenium grid across 2000+ browser and OS combinations.
 
 - [Sign up on TestMu AI](https://www.testmuai.com/register/) (Formerly LambdaTest).
-- Follow the [TestMu AI documentation](https://www.testmuai.com/support/docs/nunit-with-selenium-running-nunit-automation-scripts-on-testmu-selenium-grid/) (Formerly LambdaTest) for the full setup walkthrough.
+- Follow the [Run NUnit tests with Selenium on TestMu AI](https://www.testmuai.com/support/docs/nunit-with-selenium-running-nunit-automation-scripts-on-testmu-selenium-grid/) (Formerly LambdaTest) for the full setup walkthrough.
 
 > This code is provided on an "AS-IS" basis without warranty of any kind, either express or implied, including without limitation any implied warranties of condition, uninterrupted use, merchantability, fitness for a particular purpose, or non-infringement. Your tests and testing environments may require you to modify this framework. Issues regarding this framework should be submitted through GitHub.
 
